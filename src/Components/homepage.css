@@ -7,8 +7,9 @@ height: 267px;
 border-radius: 50%;
 }
 .btn {
+  position: relative;
   margin-left: 150px;
-  margin-bottom: -210px;
+  margin-bottom: -250px;
 }
 .circle {
 position: absolute;
