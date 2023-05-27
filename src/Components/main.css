@@ -1,3 +1,10 @@
+*{
+  font-family: "Public Sans";
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url('./Fonts/PublicSans-Light.ttf'); 
+}
 
 .log-box {
     position: relative;
@@ -20,7 +27,7 @@ input {
     width: 289px;
     height: 26px;
     left: 130px;
-    top: -80px;
+    top: -30px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.44);
@@ -34,7 +41,7 @@ input {
     font-size: 26px;
     position: relative;
     left: 255px;
-    top: -50px;
+    top: -70px;
   }
   p {
     color: #00000099;
@@ -47,7 +54,7 @@ input {
     letter-spacing: 0em;
     text-align: center;
     position: relative;
-    top: -20px;
+    top: -40px;
   }
 
 input:focus {
@@ -69,12 +76,12 @@ input:focus {
     width: 288.09px;
     height: 51.22px;
     margin-left: 150px;
-    bottom: -30px;
+    bottom: -80px;
     background: rgba(0, 120, 240, 0.1);
     border: 1px solid #0078F0;
     border-radius: 10px;
     color:#0078F0;
-    font-weight: 500;
+    font-weight: bold;
   }
   .circle {
     position: relative;
@@ -89,9 +96,19 @@ input:focus {
   .circle img {
     margin-left: 29px ;
     margin-top: 33px;
-    height: 40.333335876464844px;
-    width: 40.333335876464844px;
+    height: 42.333335876464844px;
+    width: 42.333335876464844px;
 
+  }
+  .pass {
+    position: relative;
+    left: 410px;
+    bottom: -9px;
+  }
+  .user{
+    position: relative;
+    left:410px;
+    bottom: -9px;
   }
 
   

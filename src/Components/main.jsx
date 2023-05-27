@@ -1,6 +1,8 @@
 // import HomePage from "./Components/Homepage";
 import { useState } from 'react';
 import icon from '../Images/icon.png';
+import pass from '../Images/pass.png';
+import iconSmall from '../Images/icon-n.png';
 import './main.css';
 import HomePage from './Homepage';
 
@@ -44,15 +46,26 @@ function Main () {
         <p>Hello My Friend</p>
         </div>
           <div className="circle"><img src={icon} alt=''></img></div>
+          <div>
+      <div className='user'>
+        <img src={iconSmall} alt='' />
+      </div>
         <input 
         type="Email" placeholder="Email" 
         onChange={(e) => setEmail(e.target.value)}
         />
+        </div>
         <br/>
-         <input 
-         type="password" placeholder="Password" 
-         onChange={(e) => setPassword(e.target.value)}
-        />
+        <div>
+      <div className='pass'>
+        <img src={pass} alt='' />
+      </div>
+      <input
+        type="password"
+        placeholder="Password"
+        onChange={(e) => setPassword(e.target.value)}
+      />
+    </div>
         <br/>
         <button onClick={logIn}>LOG IN</button>
         {/* {error &&
